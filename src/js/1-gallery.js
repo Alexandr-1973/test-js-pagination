@@ -3,6 +3,20 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
+import Pagination from 'tui-pagination';
+import 'tui-pagination/dist/tui-pagination.css';
+
+// // import the package
+// import VueAwesomePaginate from "vue-awesome-paginate";
+
+// // import the necessary css file
+// import "vue-awesome-paginate/dist/style.css";
+
+// // Register the package
+// export default defineNuxtPlugin((nuxtApp) => {
+//   nuxtApp.vueApp.use(VueAwesomePaginate);
+// });
+
 const images = [
   {
     preview:
@@ -89,3 +103,13 @@ var lightbox = new SimpleLightbox('.gallery a', {
   className: 'modal',
   /* options */
 });
+
+var pagination1 = new Pagination('pagination1', {
+  totalItems: 9,
+  itemsPerPage: 3,
+  visiblePages: 3,
+ 
+  // firstItemClassName: 'tui-first-child',
+  // lastItemClassName: 'tui-last-child',
+});
+// console.log(pagination1);

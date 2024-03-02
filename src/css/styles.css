@@ -116,3 +116,28 @@
 .feedback-form button:hover {
   background: #6c8cff;
 }
+
+.tui-pagination {
+  height: 30px;
+  margin-bottom: 50px;
+
+}
+
+.tui-page-btn {
+border-radius: 50%;
+}
+/* 
+.tui-pagination:first-child {
+  border-radius: 50%;
+} */
+
+/* .go {
+  border-radius: 50%;
+} */
+/* 
+.tui-first-child {
+  border-radius: 50%;
+}
+.tui-last-child {
+  border-radius: 50%;
+} */
